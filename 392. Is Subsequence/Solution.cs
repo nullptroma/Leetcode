@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _392._Is_Subsequence;
+﻿namespace _392._Is_Subsequence;
 
 public class Solution
 {
@@ -13,7 +7,7 @@ public class Solution
         if (s.Length == 0)
             return true;
         int sIndex = 0;
-        for(int i = 0; i < t.Length; i++)
+        for (int i = 0; i < t.Length; i++)
         {
             if (t[i] == s[sIndex])
             {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _205._Isomorphic_Strings;
+﻿namespace _205._Isomorphic_Strings;
 
 public class Solution
 {
@@ -12,13 +6,13 @@ public class Solution
     {
         Dictionary<char, char> table = new Dictionary<char, char>();
         Dictionary<char, char> antiTable = new Dictionary<char, char>();
-        for(int i = 0; i < s.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
             char source = s[i];
             char to = t[i];
             if (table.ContainsKey(source))
             {
-                if(table[source] != to)
+                if (table[source] != to)
                     return false;
             }
             else

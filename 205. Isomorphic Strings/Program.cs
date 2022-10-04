@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new Solution().IsIsomorphic("egg","foo"));
+            Console.WriteLine(new Solution().IsIsomorphic("egg", "foo"));
         }
     }
 }

@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Solution sol = new Solution();
-            sol.PivotIndex(new int[] { 1,4,2});
+            sol.PivotIndex(new int[] { 1, 4, 2 });
         }
     }
 }
