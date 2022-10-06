@@ -33,17 +33,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "278. First Bad Version", "2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35. Search Insert Position", "35. Search Insert Position\35. Search Insert Position.csproj", "{B595BB51-666D-4E39-86EE-F9A3B8D8DA58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "876. Middle of the Linked List", "876. Middle of the Linked List\876. Middle of the Linked List.csproj", "{2510B3B5-87EE-44AB-A2A7-BCAE9E6E91C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "876. Middle of the Linked List", "876. Middle of the Linked List\876. Middle of the Linked List.csproj", "{2510B3B5-87EE-44AB-A2A7-BCAE9E6E91C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "566. Reshape the Matrix", "566. Reshape the Matrix\566. Reshape the Matrix.csproj", "{DD4A53CF-D840-48BF-8F8F-33E39D492BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "566. Reshape the Matrix", "566. Reshape the Matrix\566. Reshape the Matrix.csproj", "{DD4A53CF-D840-48BF-8F8F-33E39D492BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118. Pascal's Triangle", "118. Pascal's Triangle\118. Pascal's Triangle.csproj", "{E1BB66AE-E4E6-441F-9B5C-1B7FFDF7912C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "118. Pascal's Triangle", "118. Pascal's Triangle\118. Pascal's Triangle.csproj", "{E1BB66AE-E4E6-441F-9B5C-1B7FFDF7912C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977. Squares of a Sorted Array", "977. Squares of a Sorted Array\977. Squares of a Sorted Array.csproj", "{F0B9DD20-6230-4381-8814-072C2E159624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "977. Squares of a Sorted Array", "977. Squares of a Sorted Array\977. Squares of a Sorted Array.csproj", "{F0B9DD20-6230-4381-8814-072C2E159624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "189. Rotate Array", "189. Rotate Array\189. Rotate Array.csproj", "{CAF5FFD6-9598-412D-8569-EB62136D34C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "189. Rotate Array", "189. Rotate Array\189. Rotate Array.csproj", "{CAF5FFD6-9598-412D-8569-EB62136D34C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "142. Linked List Cycle II", "142. Linked List Cycle II\142. Linked List Cycle II.csproj", "{EBA96217-EAD0-456C-B1C6-79A7A227ED0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "142. Linked List Cycle II", "142. Linked List Cycle II\142. Linked List Cycle II.csproj", "{EBA96217-EAD0-456C-B1C6-79A7A227ED0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "283. Move Zeroes", "283. Move Zeroes\283. Move Zeroes.csproj", "{E3D6C525-24EE-4FA3-B2E4-AC8397F7BB1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "167. Two Sum II - Input Array Is Sorted", "167. Two Sum II - Input Array Is Sorted\167. Two Sum II - Input Array Is Sorted.csproj", "{9F76EF2C-CAF7-470E-A3A4-195D10B9FCD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "74. Search a 2D Matrix", "74. Search a 2D Matrix\74. Search a 2D Matrix.csproj", "{8B14DDDD-DCEF-4EF6-B2B4-5A6D525E1E18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240. Search a 2D Matrix II", "240. Search a 2D Matrix II\240. Search a 2D Matrix II.csproj", "{F47BA875-AF2F-4D00-AB75-A62A6E31387C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "409. Longest Palindrome", "409. Longest Palindrome\409. Longest Palindrome.csproj", "{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36. Valid Sudoku", "36. Valid Sudoku\36. Valid Sudoku.csproj", "{C1759C38-D2E4-4869-B6C2-259B26586E11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +147,30 @@ Global
 		{EBA96217-EAD0-456C-B1C6-79A7A227ED0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA96217-EAD0-456C-B1C6-79A7A227ED0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA96217-EAD0-456C-B1C6-79A7A227ED0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D6C525-24EE-4FA3-B2E4-AC8397F7BB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D6C525-24EE-4FA3-B2E4-AC8397F7BB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D6C525-24EE-4FA3-B2E4-AC8397F7BB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D6C525-24EE-4FA3-B2E4-AC8397F7BB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F76EF2C-CAF7-470E-A3A4-195D10B9FCD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F76EF2C-CAF7-470E-A3A4-195D10B9FCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F76EF2C-CAF7-470E-A3A4-195D10B9FCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F76EF2C-CAF7-470E-A3A4-195D10B9FCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B14DDDD-DCEF-4EF6-B2B4-5A6D525E1E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B14DDDD-DCEF-4EF6-B2B4-5A6D525E1E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B14DDDD-DCEF-4EF6-B2B4-5A6D525E1E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B14DDDD-DCEF-4EF6-B2B4-5A6D525E1E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47BA875-AF2F-4D00-AB75-A62A6E31387C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47BA875-AF2F-4D00-AB75-A62A6E31387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47BA875-AF2F-4D00-AB75-A62A6E31387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47BA875-AF2F-4D00-AB75-A62A6E31387C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
