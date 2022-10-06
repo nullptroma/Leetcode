@@ -7,7 +7,7 @@ public class Solution
         k %= nums.Length;
         if (k == 0)
             return;
-        int oneCycleLen = nums.Length/ GCD(nums.Length, k);
+        int oneCycleLen = nums.Length / GCD(nums.Length, k);
         for (int i = 0; i < nums.Length / oneCycleLen; i++)
             MoveTo(nums, nums[i], i + k, k, oneCycleLen);
     }
@@ -30,5 +30,5 @@ public class Solution
         return b == 0 ? a : GCD(b, a % b);
     }
 
-    
+
 }

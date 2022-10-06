@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var arr = new int[] { -2,-3,4 };
+            var arr = new int[] { -2, -3, 4 };
             var res = new Solution().TwoSum(arr, -5);
             Console.WriteLine(String.Join(" ", res));
         }

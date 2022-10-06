@@ -4,7 +4,7 @@ public class Solution
 {
     public int[]? TwoSum(int[] numbers, int target)
     {
-        for(int i = 0; i < numbers.Length; i++)
+        for (int i = 0; i < numbers.Length; i++)
         {
             int cur = numbers[i];
             int nextTar = target - cur;
@@ -14,7 +14,7 @@ public class Solution
             int val = numbers[index];
             if (cur + val == target)
             {
-                if(i>index)
+                if (i > index)
                 {
                     i = i + index;
                     index = i - index;

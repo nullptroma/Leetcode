@@ -6,7 +6,7 @@ public class Solution
     {
         int[] res = new int[nums.Length];
         int firstNonNegative = -1;
-        for(int i = 0; i < nums.Length; i++)
+        for (int i = 0; i < nums.Length; i++)
         {
             if (nums[i] >= 0)
             {
@@ -17,12 +17,12 @@ public class Solution
 
         int resIndex = 0;
         int positiveIndex = firstNonNegative;
-        int negativeIndex = firstNonNegative!=-1 ? positiveIndex - 1 : nums.Length-1;
-        while(resIndex < nums.Length)
+        int negativeIndex = firstNonNegative != -1 ? positiveIndex - 1 : nums.Length - 1;
+        while (resIndex < nums.Length)
         {
-            if(negativeIndex>=0 && positiveIndex < nums.Length && positiveIndex>=0)
+            if (negativeIndex >= 0 && positiveIndex < nums.Length && positiveIndex >= 0)
             {
-                if (nums[negativeIndex]*-1 < nums[positiveIndex])
+                if (nums[negativeIndex] * -1 < nums[positiveIndex])
                 {
                     res[resIndex++] = nums[negativeIndex] * nums[negativeIndex];
                     negativeIndex--;
@@ -33,12 +33,12 @@ public class Solution
                     positiveIndex++;
                 }
             }
-            else if(negativeIndex >= 0)
+            else if (negativeIndex >= 0)
             {
-                res[resIndex++] = nums[negativeIndex]* nums[negativeIndex];
+                res[resIndex++] = nums[negativeIndex] * nums[negativeIndex];
                 negativeIndex--;
             }
-            else if(positiveIndex >= 0)
+            else if (positiveIndex >= 0)
             {
                 res[resIndex++] = nums[positiveIndex] * nums[positiveIndex];
                 positiveIndex++;

@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var res = new Solution().MatrixReshape(new int[][] { new int[] { 1,2 }, new int[] { 4, 5 } }, 2, 4);
-            foreach(var row in res)
+            var res = new Solution().MatrixReshape(new int[][] { new int[] { 1, 2 }, new int[] { 4, 5 } }, 2, 4);
+            foreach (var row in res)
                 Console.WriteLine(String.Join(" ", row));
         }
     }

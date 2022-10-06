@@ -5,7 +5,7 @@ public class Solution
     public ListNode MiddleNode(ListNode? head)
     {
         ListNode result = head!;
-        while(head?.next != null)
+        while (head?.next != null)
         {
             head = head?.next?.next;
             result = result!.next!;

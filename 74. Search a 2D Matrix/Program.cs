@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int[][] matrix = new int[][] { new int[] { 1 }};
+            int[][] matrix = new int[][] { new int[] { 1 } };
             Console.WriteLine(new Solution().SearchMatrix(matrix, 1));
         }
     }

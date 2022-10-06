@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var res = new Solution().SortedSquares(new int[] { -7, -2,-1 });
+            var res = new Solution().SortedSquares(new int[] { -7, -2, -1 });
             Console.WriteLine(String.Join(" ", res));
         }
     }

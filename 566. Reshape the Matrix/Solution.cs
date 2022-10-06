@@ -13,7 +13,7 @@ public class Solution
         int size = r * c;
         if (size != height * width)
             return mat;
-        for(int i = 0; i < size; i++)
+        for (int i = 0; i < size; i++)
         {
             int ySource = i / width;
             int xSource = i % width;
