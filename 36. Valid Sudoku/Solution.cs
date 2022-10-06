@@ -12,14 +12,13 @@ public class Solution
         foreach (char[] row in board)
         {
             HashSet<char> rowSet = new HashSet<char>();
-            foreach (char c in row)
+            foreach (char ch in row)
             {
-                if (c != '.')
+                if (ch != '.')
                 {
-                    int prevCount = rowSet.Count;
-                    rowSet.Add(c);
-                    if (prevCount == rowSet.Count)
+                    if (rowSet.Contains(ch))
                         return false;
+                    rowSet.Add(ch);
                 }
             }
         }
@@ -30,16 +29,15 @@ public class Solution
     {
         for (int columnIndex = 0; columnIndex < board[0].Length; columnIndex++)
         {
-            HashSet<char> column = new HashSet<char>();
+            HashSet<char> columnSet = new HashSet<char>();
             for (int rowIndex = 0; rowIndex < board[columnIndex].Length; rowIndex++)
             {
                 char ch = board[rowIndex][columnIndex];
                 if (ch != '.')
                 {
-                    int prevCount = column.Count;
-                    column.Add(ch);
-                    if (prevCount == column.Count)
+                    if (columnSet.Contains(ch))
                         return false;
+                    columnSet.Add(ch);
                 }
             }
         }
@@ -68,10 +66,9 @@ public class Solution
                 char ch = board[y][x];
                 if (ch != '.')
                 {
-                    int prev = set.Count;
-                    set.Add(ch);
-                    if (prev == set.Count)
+                    if (set.Contains(ch))
                         return false;
+                    set.Add(ch);
                 }
             }
         }
