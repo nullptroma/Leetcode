@@ -4,6 +4,8 @@ public class Solution
 {
     public ListNode? DetectCycle(ListNode head)
     {
+        if(head == null)
+            return null;
         ListNode? cur = head;
         int bit = 1 << 28;
         int curAbs = 0;
