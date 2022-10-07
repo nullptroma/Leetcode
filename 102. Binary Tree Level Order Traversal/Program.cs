@@ -1,4 +1,4 @@
-﻿namespace _1._Two_Sum;
+﻿namespace _102._Binary_Tree_Level_Order_Traversal;
 
 internal class Program
 {

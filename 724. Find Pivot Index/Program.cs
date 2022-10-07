@@ -1,11 +1,10 @@
-﻿namespace _724._Find_Pivot_Index
+﻿namespace _724._Find_Pivot_Index;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Solution sol = new Solution();
-            sol.PivotIndex(new int[] { 1, 4, 2 });
-        }
+        Solution sol = new Solution();
+        sol.PivotIndex(new int[] { 1, 4, 2 });
     }
 }

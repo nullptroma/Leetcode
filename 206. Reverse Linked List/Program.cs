@@ -1,11 +1,10 @@
-﻿namespace _206._Reverse_Linked_List
+﻿namespace _206._Reverse_Linked_List;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var l = ListNode.Create(new int[] { 1 });
-            Console.WriteLine(new Solution().ReverseList(l));
-        }
+        var l = ListNode.Create(new int[] { 1 });
+        Console.WriteLine(new Solution().ReverseList(l));
     }
 }

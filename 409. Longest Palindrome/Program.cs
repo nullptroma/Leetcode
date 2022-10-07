@@ -1,10 +1,9 @@
-﻿namespace _409._Longest_Palindrome
+﻿namespace _409._Longest_Palindrome;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(new Solution().LongestPalindrome("bb"));
-        }
+        Console.WriteLine(new Solution().LongestPalindrome("bb"));
     }
 }

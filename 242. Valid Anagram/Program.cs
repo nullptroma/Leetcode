@@ -1,4 +1,4 @@
-﻿namespace _1._Two_Sum;
+﻿namespace _242._Valid_Anagram;
 
 internal class Program
 {

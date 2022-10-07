@@ -1,4 +1,4 @@
-﻿namespace _1._Two_Sum;
+﻿namespace _589._N_ary_Tree_Preorder_Traversal;
 
 internal class Program
 {

@@ -53,9 +53,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "74. Search a 2D Matrix", "7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "240. Search a 2D Matrix II", "240. Search a 2D Matrix II\240. Search a 2D Matrix II.csproj", "{F47BA875-AF2F-4D00-AB75-A62A6E31387C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "409. Longest Palindrome", "409. Longest Palindrome\409. Longest Palindrome.csproj", "{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "409. Longest Palindrome", "409. Longest Palindrome\409. Longest Palindrome.csproj", "{F40EDCD6-7BEC-4F1E-BE95-8CD91389122F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36. Valid Sudoku", "36. Valid Sudoku\36. Valid Sudoku.csproj", "{C1759C38-D2E4-4869-B6C2-259B26586E11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36. Valid Sudoku", "36. Valid Sudoku\36. Valid Sudoku.csproj", "{C1759C38-D2E4-4869-B6C2-259B26586E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "344. Reverse String", "344. Reverse String\344. Reverse String.csproj", "{65D5229E-6D7D-41D2-BB68-2EBA40E9DCE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "557. Reverse Words in a String III", "557. Reverse Words in a String III\557. Reverse Words in a String III.csproj", "{B3E1C7CD-0992-49BB-B44A-E129912763DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "387. First Unique Character in a String", "387. First Unique Character in a String\387. First Unique Character in a String.csproj", "{3B479362-7079-4112-AFA1-3C344E83C8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "383. Ransom Note", "383. Ransom Note\383. Ransom Note.csproj", "{6F43E7FE-AD78-47D6-86FA-33B42DC55882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "242. Valid Anagram", "242. Valid Anagram\242. Valid Anagram.csproj", "{FBD8C83E-D3F9-4CE3-B5DD-9C326CBC692C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "589. N-ary Tree Preorder Traversal", "589. N-ary Tree Preorder Traversal\589. N-ary Tree Preorder Traversal.csproj", "{4A8355E0-FF05-4DF3-B735-4B11BEAD95C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102. Binary Tree Level Order Traversal", "102. Binary Tree Level Order Traversal\102. Binary Tree Level Order Traversal.csproj", "{557D8195-C886-4B52-BBC4-285A1C1057FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +185,34 @@ Global
 		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1759C38-D2E4-4869-B6C2-259B26586E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D5229E-6D7D-41D2-BB68-2EBA40E9DCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D5229E-6D7D-41D2-BB68-2EBA40E9DCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D5229E-6D7D-41D2-BB68-2EBA40E9DCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D5229E-6D7D-41D2-BB68-2EBA40E9DCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E1C7CD-0992-49BB-B44A-E129912763DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E1C7CD-0992-49BB-B44A-E129912763DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E1C7CD-0992-49BB-B44A-E129912763DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E1C7CD-0992-49BB-B44A-E129912763DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B479362-7079-4112-AFA1-3C344E83C8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B479362-7079-4112-AFA1-3C344E83C8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B479362-7079-4112-AFA1-3C344E83C8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B479362-7079-4112-AFA1-3C344E83C8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F43E7FE-AD78-47D6-86FA-33B42DC55882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F43E7FE-AD78-47D6-86FA-33B42DC55882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F43E7FE-AD78-47D6-86FA-33B42DC55882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F43E7FE-AD78-47D6-86FA-33B42DC55882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD8C83E-D3F9-4CE3-B5DD-9C326CBC692C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD8C83E-D3F9-4CE3-B5DD-9C326CBC692C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD8C83E-D3F9-4CE3-B5DD-9C326CBC692C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD8C83E-D3F9-4CE3-B5DD-9C326CBC692C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8355E0-FF05-4DF3-B735-4B11BEAD95C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8355E0-FF05-4DF3-B735-4B11BEAD95C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8355E0-FF05-4DF3-B735-4B11BEAD95C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8355E0-FF05-4DF3-B735-4B11BEAD95C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

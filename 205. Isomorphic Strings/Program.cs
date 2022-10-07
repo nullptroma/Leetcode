@@ -1,10 +1,9 @@
-﻿namespace _205._Isomorphic_Strings
+﻿namespace _205._Isomorphic_Strings;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(new Solution().IsIsomorphic("egg", "foo"));
-        }
+        Console.WriteLine(new Solution().IsIsomorphic("egg", "foo"));
     }
 }

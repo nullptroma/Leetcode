@@ -1,9 +1,8 @@
-﻿namespace _35._Search_Insert_Position
+﻿namespace _35._Search_Insert_Position;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
