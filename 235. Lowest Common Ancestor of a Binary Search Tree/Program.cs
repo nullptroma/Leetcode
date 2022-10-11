@@ -7,6 +7,6 @@ internal class Program
         TreeNode root = new TreeNode(6);
         root.left = new TreeNode(2) { left = new TreeNode(0), right = new TreeNode(4) { left = new TreeNode(3), right = new TreeNode(5) } };
         root.right = new TreeNode(8) { left = new TreeNode(7), right = new TreeNode(9) };
-        Console.WriteLine(new Solution().LowestCommonAncestor(root, new TreeNode(3), new TreeNode(5)).val);
+        Console.WriteLine(new Solution().LowestCommonAncestor(root, new TreeNode(3), new TreeNode(5))?.val);
     }
 }

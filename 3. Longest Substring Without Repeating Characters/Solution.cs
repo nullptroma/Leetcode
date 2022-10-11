@@ -6,10 +6,10 @@ public class Solution
     {
         int max = 0;
         Dictionary<char, int> dict = new Dictionary<char, int>();
-        for(int i = 0; i < s.Length; i++)
+        for (int i = 0; i < s.Length; i++)
         {
             char c = s[i];
-            if(dict.ContainsKey(c))
+            if (dict.ContainsKey(c))
             {
                 max = Math.Max(max, dict.Count);
                 i = dict[c];

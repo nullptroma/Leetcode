@@ -6,11 +6,11 @@ public class Solution
     {
         int min = Math.Min(p.val, q.val);
         int max = Math.Max(p.val, q.val);
-        while(true)
+        while (true)
         {
             if (root == null)
                 return null;
-            else if (min <= root.val && max>=root.val)
+            else if (min <= root.val && max >= root.val)
                 return root;
             else if (root.val >= p.val)
                 root = root.left!;

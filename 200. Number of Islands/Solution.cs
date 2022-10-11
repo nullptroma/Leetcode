@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace _200._Number_of_Islands;
+﻿namespace _200._Number_of_Islands;
 
 public class Solution
 {
@@ -28,7 +26,7 @@ public class Solution
 
     private void Recursion(char[][] grid, int[][] was, int y, int x, int id)
     {
-        if (was[y][x]!=0 || grid[y][x] != '1')
+        if (was[y][x] != 0 || grid[y][x] != '1')
             return;
         was[y][x] = id;
         for (int i = 1; i < 8; i += 2)

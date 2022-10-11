@@ -7,14 +7,14 @@ public class MyQueue
 
     public void Push(int x)
     {
-        while(_sOutput.TryPop(out int res))
+        while (_sOutput.TryPop(out int res))
             _sInput.Push(res);
         _sInput.Push(x);
     }
 
     public int Pop()
     {
-        while(_sInput.TryPop(out int res))
+        while (_sInput.TryPop(out int res))
             _sOutput.Push(res);
         return _sOutput.Pop();
     }

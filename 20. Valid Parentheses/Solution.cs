@@ -11,7 +11,7 @@ public class Solution
             return true;
         if (sb.Length % 2 == 1)
             return false;
-        while(sb.Length > 0)
+        while (sb.Length > 0)
         {
             char ch = sb[0];
             if ("({[".Contains(ch) == false)
@@ -27,7 +27,7 @@ public class Solution
             int count2 = 0;// {}
             int count3 = 0;// []
             bool succes = false;
-            for(int i = 1; i < sb.Length; i++)
+            for (int i = 1; i < sb.Length; i++)
             {
                 char c = sb[i];
                 if (count1 == 0 && count2 == 0 && count3 == 0 && c == need)
@@ -60,7 +60,7 @@ public class Solution
                         break;
                 }
             }
-            if(succes == false)
+            if (succes == false)
                 return false;
         }
         return true;

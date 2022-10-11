@@ -19,7 +19,7 @@ public class Solution
             current = current.next;
             head = head.next;
         }
-        if(current != null)
+        if (current != null)
             current.next = null;
         return first;
     }
