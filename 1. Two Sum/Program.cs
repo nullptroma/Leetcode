@@ -4,6 +4,6 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine(String.Join(" ", new Solution().TwoSum(new int[] {3,2,4}, 6)??new int[0]));
     }
 }
