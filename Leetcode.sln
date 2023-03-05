@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
@@ -153,11 +153,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "136. Single Number", "136. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "191. Number of 1 Bits", "191. Number of 1 Bits\191. Number of 1 Bits.csproj", "{6950BC7E-2DB5-4DBF-9C2C-B331F9ED99DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{CAD43138-0C0D-4C92-B714-24D620804969}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers", "2. Add Two Numbers\2. Add Two Numbers.csproj", "{F534D9DD-C6F4-4AC1-83EA-06A79E17BBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers", "2. Add Two Numbers\2. Add Two Numbers.csproj", "{1A9AF8A6-FD60-4AF3-8F42-3CCA483A4950}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{1127A8CA-96B9-4245-987E-B7D1FF7A741D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Zigzag Conversion", "6. Zigzag Conversion\6. Zigzag Conversion.csproj", "{7B0C033A-7D5D-4B75-AFFB-D012DA62C008}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Zigzag Conversion", "6. Zigzag Conversion\6. Zigzag Conversion.csproj", "{4C15CB37-485C-4CD0-9BD4-D713CC744ECC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,7 +301,6 @@ Global
 		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{557D8195-C886-4B52-BBC4-285A1C1057FF}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< Updated upstream
 		{EC089303-B1E1-482F-BAED-530DAB4C1346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC089303-B1E1-482F-BAED-530DAB4C1346}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC089303-B1E1-482F-BAED-530DAB4C1346}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -466,20 +465,18 @@ Global
 		{6950BC7E-2DB5-4DBF-9C2C-B331F9ED99DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6950BC7E-2DB5-4DBF-9C2C-B331F9ED99DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6950BC7E-2DB5-4DBF-9C2C-B331F9ED99DB}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{CAD43138-0C0D-4C92-B714-24D620804969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAD43138-0C0D-4C92-B714-24D620804969}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAD43138-0C0D-4C92-B714-24D620804969}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAD43138-0C0D-4C92-B714-24D620804969}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A9AF8A6-FD60-4AF3-8F42-3CCA483A4950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A9AF8A6-FD60-4AF3-8F42-3CCA483A4950}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A9AF8A6-FD60-4AF3-8F42-3CCA483A4950}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A9AF8A6-FD60-4AF3-8F42-3CCA483A4950}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B0C033A-7D5D-4B75-AFFB-D012DA62C008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B0C033A-7D5D-4B75-AFFB-D012DA62C008}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B0C033A-7D5D-4B75-AFFB-D012DA62C008}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B0C033A-7D5D-4B75-AFFB-D012DA62C008}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Stashed changes
+		{F534D9DD-C6F4-4AC1-83EA-06A79E17BBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F534D9DD-C6F4-4AC1-83EA-06A79E17BBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F534D9DD-C6F4-4AC1-83EA-06A79E17BBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F534D9DD-C6F4-4AC1-83EA-06A79E17BBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1127A8CA-96B9-4245-987E-B7D1FF7A741D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1127A8CA-96B9-4245-987E-B7D1FF7A741D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1127A8CA-96B9-4245-987E-B7D1FF7A741D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1127A8CA-96B9-4245-987E-B7D1FF7A741D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C15CB37-485C-4CD0-9BD4-D713CC744ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C15CB37-485C-4CD0-9BD4-D713CC744ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C15CB37-485C-4CD0-9BD4-D713CC744ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C15CB37-485C-4CD0-9BD4-D713CC744ECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
