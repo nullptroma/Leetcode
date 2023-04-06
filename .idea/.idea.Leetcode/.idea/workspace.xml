@@ -15,6 +15,7 @@
     <projectFile>144. Binary Tree Preorder Traversal/144. Binary Tree Preorder Traversal.csproj</projectFile>
     <projectFile>145. Binary Tree Postorder Traversal/145. Binary Tree Postorder Traversal.csproj</projectFile>
     <projectFile>1480. Running Sum of 1d Array/1480. Running Sum of 1d Array.csproj</projectFile>
+    <projectFile>15. 3Sum/15. 3Sum.csproj</projectFile>
     <projectFile>167. Two Sum II - Input Array Is Sorted/167. Two Sum II - Input Array Is Sorted.csproj</projectFile>
     <projectFile>189. Rotate Array/189. Rotate Array.csproj</projectFile>
     <projectFile>19. Remove Nth Node From End of List/19. Remove Nth Node From End of List.csproj</projectFile>
@@ -72,6 +73,7 @@
     <projectFile>746. Min Cost Climbing Stairs/746. Min Cost Climbing Stairs.csproj</projectFile>
     <projectFile>77. Combinations/77. Combinations.csproj</projectFile>
     <projectFile>784. Letter Case Permutation/784. Letter Case Permutation.csproj</projectFile>
+    <projectFile>8. String to Integer (atoi)/8. String to Integer (atoi).csproj</projectFile>
     <projectFile>83. Remove Duplicates from Sorted List/83. Remove Duplicates from Sorted List.csproj</projectFile>
     <projectFile>876. Middle of the Linked List/876. Middle of the Linked List.csproj</projectFile>
     <projectFile>88. Merge Sorted Array/88. Merge Sorted Array.csproj</projectFile>
@@ -82,6 +84,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f2de1c-1ee5-4aa4-91e6-11975ebd421f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/15. 3Sum.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15. 3Sum/Solution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/8. String to Integer (atoi).csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/Solution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leetcode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.sln" afterDir="false" />
     </list>
@@ -90,20 +106,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/527a2dcd76ec41ecb0820c0926ad20f7a28600/75/a9f2af7b/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/527a2dcd76ec41ecb0820c0926ad20f7a28600/f4/54bf738e/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MbItycivFzycjT9hquXZe9USRT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/nullptr/Projects/dotNET/Leetcode/6. Zigzag Conversion/6. Zigzag Conversion.csproj",
+    "last_opened_file_path": "/home/nullptr/Projects/dotnet/Leetcode/15. 3Sum/15. 3Sum.csproj",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   },
@@ -115,7 +140,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.6. Zigzag Conversion">
+  <component name="RunManager" selected=".NET Project.15. 3Sum">
     <configuration name="101. Symmetric Tree" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -341,6 +366,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/1480. Running Sum of 1d Array/1480. Running Sum of 1d Array.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="15. 3Sum" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/15. 3Sum/15. 3Sum.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -1448,6 +1491,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="8. String to Integer (atoi)" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/8. String to Integer (atoi)/8. String to Integer (atoi).csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="94. Binary Tree Inorder Traversal" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -1530,6 +1591,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678030074860</updated>
       <workItem from="1678030078340" duration="114000" />
+      <workItem from="1680804946367" duration="3697000" />
     </task>
     <servers />
   </component>
@@ -1538,6 +1600,7 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
