@@ -167,6 +167,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "225. Implement Stack using 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix", "14. Longest Common Prefix\14. Longest Common Prefix.csproj", "{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "150. Evaluate Reverse Polish Notation", "150. Evaluate Reverse Polish Notation\150. Evaluate Reverse Polish Notation.csproj", "{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -501,6 +503,10 @@ Global
 		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
