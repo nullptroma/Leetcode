@@ -30,6 +30,7 @@
     <projectFile>206. Reverse Linked List/206. Reverse Linked List.csproj</projectFile>
     <projectFile>21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.csproj</projectFile>
     <projectFile>217. Contains Duplicate/217. Contains Duplicate.csproj</projectFile>
+    <projectFile>225. Implement Stack using Queues/225. Implement Stack using Queues.csproj</projectFile>
     <projectFile>226. Invert Binary Tree/226. Invert Binary Tree.csproj</projectFile>
     <projectFile>231. Power of Two/231. Power of Two.csproj</projectFile>
     <projectFile>232. Implement Queue using Stacks/232. Implement Queue using Stacks.csproj</projectFile>
@@ -82,22 +83,14 @@
     <projectFile>98. Validate Binary Search Tree/98. Validate Binary Search Tree.csproj</projectFile>
     <projectFile>994. Rotting Oranges/994. Rotting Oranges.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="11f2de1c-1ee5-4aa4-91e6-11975ebd421f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/.idea/.idea.OldConsoleTemplate.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/15. 3Sum.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15. 3Sum/Solution.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/.idea/.idea.OldConsoleTemplate.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/8. String to Integer (atoi).csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. String to Integer (atoi)/Solution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Longest Common Prefix/14. Longest Common Prefix.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Longest Common Prefix/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Longest Common Prefix/Solution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leetcode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.sln" afterDir="false" />
     </list>
@@ -106,13 +99,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/527a2dcd76ec41ecb0820c0926ad20f7a28600/75/a9f2af7b/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/527a2dcd76ec41ecb0820c0926ad20f7a28600/f4/54bf738e/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14. Longest Common Prefix/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/14. Longest Common Prefix/Solution.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/225. Implement Stack using Queues/MyStack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/225. Implement Stack using Queues/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/232. Implement Queue using Stacks/MyQueue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/232. Implement Queue using Stacks/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2MbItycivFzycjT9hquXZe9USRT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -123,24 +126,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.14. Longest Common Prefix.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/nullptr/Projects/dotnet/Leetcode/15. 3Sum/15. 3Sum.csproj",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "/home/nullptr/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/home/nullptr/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/home/nullptr/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/home/nullptr/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
       "/home/nullptr/.local/share/Symbols/src"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.15. 3Sum">
+  <component name="RunManager" selected=".NET Project.14. Longest Common Prefix">
     <configuration name="101. Symmetric Tree" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -371,6 +380,24 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="14. Longest Common Prefix" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/14. Longest Common Prefix/bin/Debug/net8.0/14. Longest Common Prefix" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14. Longest Common Prefix/bin/Debug/net8.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/14. Longest Common Prefix/14. Longest Common Prefix.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -636,6 +663,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="225. Implement Stack using Queues" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/225. Implement Stack using Queues/225. Implement Stack using Queues.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -1581,6 +1626,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.14. Longest Common Prefix" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1592,6 +1642,7 @@
       <updated>1678030074860</updated>
       <workItem from="1678030078340" duration="114000" />
       <workItem from="1680804946367" duration="3697000" />
+      <workItem from="1706644472303" duration="3045000" />
     </task>
     <servers />
   </component>

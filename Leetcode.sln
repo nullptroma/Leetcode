@@ -165,6 +165,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. 3Sum", "15. 3Sum\15. 3S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "225. Implement Stack using Queues", "225. Implement Stack using Queues\225. Implement Stack using Queues.csproj", "{4DF0467F-C3C9-4F92-9EE7-D21AD30F559D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix", "14. Longest Common Prefix\14. Longest Common Prefix.csproj", "{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -495,6 +497,10 @@ Global
 		{4DF0467F-C3C9-4F92-9EE7-D21AD30F559D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF0467F-C3C9-4F92-9EE7-D21AD30F559D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF0467F-C3C9-4F92-9EE7-D21AD30F559D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C1A088-861F-4E6D-A3D4-631C3B207A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
