@@ -169,6 +169,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Longest Common Prefix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "150. Evaluate Reverse Polish Notation", "150. Evaluate Reverse Polish Notation\150. Evaluate Reverse Polish Notation.csproj", "{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Palindrome Number", "9. Palindrome Number\9. Palindrome Number.csproj", "{1397373A-47E9-4E22-8FE5-82376C7FACA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +509,10 @@ Global
 		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A95EED-FD1D-40E7-B9E0-2DD48BE05AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1397373A-47E9-4E22-8FE5-82376C7FACA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1397373A-47E9-4E22-8FE5-82376C7FACA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1397373A-47E9-4E22-8FE5-82376C7FACA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1397373A-47E9-4E22-8FE5-82376C7FACA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
