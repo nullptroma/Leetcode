@@ -52,6 +52,7 @@
     <projectFile>409. Longest Palindrome/409. Longest Palindrome.csproj</projectFile>
     <projectFile>424. Longest Repeating Character Replacement/424. Longest Repeating Character Replacement.csproj</projectFile>
     <projectFile>438. Find All Anagrams in a String/438. Find All Anagrams in a String.csproj</projectFile>
+    <projectFile>451. Sort Characters By Frequency/451. Sort Characters By Frequency.csproj</projectFile>
     <projectFile>46. Permutations/46. Permutations.csproj</projectFile>
     <projectFile>509. Fibonacci Number/509. Fibonacci Number.csproj</projectFile>
     <projectFile>53. Maximum Subarray/53. Maximum Subarray.csproj</projectFile>
@@ -88,9 +89,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f2de1c-1ee5-4aa4-91e6-11975ebd421f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/9. Palindrome Number/9. Palindrome Number.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Palindrome Number/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. Palindrome Number/Solution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/451. Sort Characters By Frequency/451. Sort Characters By Frequency.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/451. Sort Characters By Frequency/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/451. Sort Characters By Frequency/Solution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Leetcode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.sln" afterDir="false" />
     </list>
@@ -113,9 +114,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2MbItycivFzycjT9hquXZe9USRT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,34 +125,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.14. Longest Common Prefix.executor": "Run",
-    ".NET Project.150. Evaluate Reverse Polish Notation.executor": "Run",
-    ".NET Project.9. Palindrome Number.executor": "Run",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/nullptr/Projects/dotnet/Leetcode/15. 3Sum/15. 3Sum.csproj",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.14. Longest Common Prefix.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.150. Evaluate Reverse Polish Notation.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.9. Palindrome Number.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nullptr/Projects/dotnet/Leetcode/15. 3Sum/15. 3Sum.csproj&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/home/nullptr/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/home/nullptr/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/home/nullptr/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/nullptr/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/nullptr/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/nullptr/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.9. Palindrome Number">
+}</component>
+  <component name="RunManager" selected=".NET Project.451. Sort Characters By Frequency">
     <configuration name="101. Symmetric Tree" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -1088,6 +1089,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="451. Sort Characters By Frequency" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/451. Sort Characters By Frequency/451. Sort Characters By Frequency.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="46. Permutations" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -1682,7 +1701,8 @@
       <updated>1678030074860</updated>
       <workItem from="1678030078340" duration="114000" />
       <workItem from="1680804946367" duration="3697000" />
-      <workItem from="1706644472303" duration="7691000" />
+      <workItem from="1706644472303" duration="7903000" />
+      <workItem from="1707331420927" duration="422000" />
     </task>
     <servers />
   </component>
