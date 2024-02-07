@@ -42,6 +42,7 @@
     <projectFile>299. Bulls and Cows/299. Bulls and Cows.csproj</projectFile>
     <projectFile>3. Longest Substring Without Repeating Characters/3. Longest Substring Without Repeating Characters.csproj</projectFile>
     <projectFile>344. Reverse String/344. Reverse String.csproj</projectFile>
+    <projectFile>347. Top K Frequent Elements/347. Top K Frequent Elements.csproj</projectFile>
     <projectFile>35. Search Insert Position/35. Search Insert Position.csproj</projectFile>
     <projectFile>350. Intersection of Two Arrays II/350. Intersection of Two Arrays II.csproj</projectFile>
     <projectFile>36. Valid Sudoku/36. Valid Sudoku.csproj</projectFile>
@@ -89,9 +90,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f2de1c-1ee5-4aa4-91e6-11975ebd421f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/451. Sort Characters By Frequency/Fast/FastSolution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/347. Top K Frequent Elements/347. Top K Frequent Elements.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/347. Top K Frequent Elements/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/347. Top K Frequent Elements/Solution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/451. Sort Characters By Frequency/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/451. Sort Characters By Frequency/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +130,7 @@
   "keyToString": {
     ".NET Project.14. Longest Common Prefix.executor": "Run",
     ".NET Project.150. Evaluate Reverse Polish Notation.executor": "Run",
+    ".NET Project.347. Top K Frequent Elements.executor": "Run",
     ".NET Project.451. Sort Characters By Frequency.executor": "Run",
     ".NET Project.9. Palindrome Number.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -151,7 +155,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.451. Sort Characters By Frequency">
+  <component name="RunManager" selected=".NET Project.347. Top K Frequent Elements">
     <configuration name="101. Symmetric Tree" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -899,6 +903,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/344. Reverse String/344. Reverse String.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="347. Top K Frequent Elements" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/347. Top K Frequent Elements/347. Top K Frequent Elements.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -1701,7 +1723,7 @@
       <workItem from="1678030078340" duration="114000" />
       <workItem from="1680804946367" duration="3697000" />
       <workItem from="1706644472303" duration="7903000" />
-      <workItem from="1707331420927" duration="1097000" />
+      <workItem from="1707331420927" duration="3074000" />
     </task>
     <servers />
   </component>

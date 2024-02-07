@@ -173,6 +173,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Palindrome Number", "9. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "451. Sort Characters By Frequency", "451. Sort Characters By Frequency\451. Sort Characters By Frequency.csproj", "{CA2D97FB-8F9D-40C0-BCE6-CBF0528AE296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347. Top K Frequent Elements", "347. Top K Frequent Elements\347. Top K Frequent Elements.csproj", "{F4DE54A1-6881-445A-A6B6-2206293D2F2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -519,6 +521,10 @@ Global
 		{CA2D97FB-8F9D-40C0-BCE6-CBF0528AE296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2D97FB-8F9D-40C0-BCE6-CBF0528AE296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2D97FB-8F9D-40C0-BCE6-CBF0528AE296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DE54A1-6881-445A-A6B6-2206293D2F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DE54A1-6881-445A-A6B6-2206293D2F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DE54A1-6881-445A-A6B6-2206293D2F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DE54A1-6881-445A-A6B6-2206293D2F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
